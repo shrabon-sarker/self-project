@@ -1,0 +1,255 @@
+/*===================================
+				About
+   =================================== */
+
+/*
+    Theme Name: Yebo-bicycle-theme
+    Theme URI: http://bicycle.com
+    Author: shrabon
+    Author URI: http://shrabon.com
+    Description: this is yebo bicycle theme is best theme all .
+    Tags: One page, multi page, multipurpose, creative, html5, css3, javacript.
+
+ */
+
+/* ===================================
+          Table of Contents
+   =================================== */
+
+/*
+	01. Typography
+	02. Header section
+	03. info section
+	04. gellary section
+	05. tittwer section
+	06. service section
+	07. discover section
+    08. contact section
+    09. footer section
+ */
+
+/*Table Of Contents ends */
+
+/*Global Styling*/
+
+/*=====================================
+				Typography
+=========================================*/
+body {
+  font-family: "Rokkitt", serif;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+/*=====================================
+				header section
+=========================================*/
+.header-section {
+  background: url("images/header-bg.jpg") no-repeat center / 100% 100%;
+  overflow: hidden;
+}
+.menu {
+  padding-top: 47px;
+}
+.main-menu ul {
+  float: right;
+}
+.logo a {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.main-menu ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.main-menu ul li a:hover {
+  color: #1abc9c;
+}
+
+.header-text {
+  padding: 120px 0 140px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header-text h2 {
+  font-size: 48px;
+  border-bottom: 1px solid #ffffff;
+  display: inline;
+  padding: 5px 0;
+}
+
+/*=====================================
+				info section
+=========================================*/
+
+.into-section {
+  padding: 100px 0;
+  position: relative;
+}
+.head-btn {
+  position: absolute;
+  top: -23px;
+  left: 46%;
+}
+.head-btn a {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  background: #1abc9c;
+}
+
+.head-btn a:hover {
+  background: #78d8c5;
+}
+
+.into-text h3 {
+  color: #1abc9c;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.into-text p {
+  color: #95a5a6;
+  font-size: 17px;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding-top: 20px;
+  line-height: 1.7em;
+}
+
+/*=====================================
+				catgori section
+=========================================*/
+
+.catagori-section {
+  padding: 10px 0 60px;
+}
+.ser-get h4 {
+  color: #1abc9c;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 3em;
+}
+
+.ser-get p {
+  color: #95a5a6;
+  font-size: 15px;
+  line-height: 1.6em;
+  margin-top: 0;
+}
+
+/*=====================================
+				catgori section
+=========================================*/
+
+.gellary-section {
+}
+
+.gellary {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0;
+  transition: 0.5s;
+  background: #1abc9c;
+  transform: translateY(100%);
+}
+
+.gellary:hover .caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.more-btn a {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  background: #1abc9c;
+}
+
+.divader {
+  width: 100%;
+  border-bottom: 1px solid #e4e8e8;
+  padding: 0 0 55px;
+}
+
+.contact-section form {
+  width: 70%;
+  margin: auto;
+}
+
+.contact-section h2 {
+  font-size: 50px;
+  color: #1abc9c;
+  font-weight: 7000;
+  text-align: center;
+  padding: 40px 0 40px;
+}
+
+.footer-section {
+  background: #1abc9c;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+
+.socail ul li a {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.socail ul li a:hover {
+  color: #95a5a6;
+}
+
+@media all and (max-width: 768px) {
+  .logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .gellary {
+    padding: 15px;
+  }
+
+  .responsive-in {
+    margin-bottom: 20px;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-right p {
+    text-align: center;
+  }
+}
